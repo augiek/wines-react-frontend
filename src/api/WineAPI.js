@@ -1,5 +1,5 @@
 
-const BASE_URL = 'https://cors-anywhere.herokuapp.com/https://wines-django-backend-cp.herokuapp.com/'
+const BASE_URL = 'https://wines-django-backend-cp.herokuapp.com/'
 
 const fetchWineByID = (wineID) => {
   return fetch(`${BASE_URL}/wines/${wineID}`)
